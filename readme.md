@@ -3,6 +3,8 @@
 ## Descripción
 Proyecto Django básico que demuestra fundamentos del framework, pensamiento analítico mediante SQL y criterio profesional.
 
+![Analytics Portal](./analytics_portal.png)
+
 ## Requisitos
 - Python 3.10+
 - Django 5+
