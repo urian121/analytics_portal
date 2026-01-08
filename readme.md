@@ -1,4 +1,4 @@
-# Prueba Técnica – Consultor Analítico
+# Prueba Técnica – Desarrollador Fullstack - Django
 
 ## Descripción
 Proyecto Django básico que demuestra fundamentos del framework, pensamiento analítico mediante SQL y criterio profesional.
