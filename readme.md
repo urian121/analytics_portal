@@ -11,14 +11,28 @@ Proyecto Django básico que demuestra fundamentos del framework, pensamiento ana
 
 ## Instalación y ejecución
 ```bash
+# Clonar el repositorio
 git clone https://github.com/urian121/analytics_portal.git
-cd analytics_portal # Entrar en el directorio del proyecto
-python -m venv venv # Crear entorno virtual
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt # Instalar dependencias del proyecto
-python manage.py runserver # Ejecutar el servidor de desarrollo
 
-# Acceder a la aplicación
+# Entrar en el directorio del proyecto
+cd analytics_portal
+
+# Crear entorno virtual
+python -m venv venv
+
+# Activar entorno virtual en Windows
+source env/Script/activate
+
+# Activar entorno virtual en Mac
+source env/bin/activate
+
+# Instalar dependencias del proyecto
+pip install -r requirements.txt 
+
+# Ejecutar el servidor de desarrollo
+python manage.py runserver 
+
+# Acceder a la aplicación desde el navegador visitando:
 http://localhost:8000/dashboard/
 ```
 
@@ -35,8 +49,8 @@ La lógica de acceso a datos se separó en un módulo de servicios encargado de 
 Las vistas consumen estos servicios y envían los datos ya procesados al template, manteniendo el frontend desacoplado de la fuente de datos.
 
 ### Queries SQL
-Los queries utilizados se encuentran en `./sql/queries.sql`.
 
+Los queries utilizados se encuentran en `./sql/queries.sql`.
 
 ## Decisiones técnicas
 
