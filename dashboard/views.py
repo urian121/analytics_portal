@@ -14,7 +14,4 @@ def home(request):
         for cliente in range(1, 21)
     ]
     
-    for item in datos_dashboard:
-        print(item)
-    
     return render(request, "dashboard/home.html", {"datos_dashboard": datos_dashboard})
