@@ -1,0 +1,18 @@
+<h1>Portal Analítico</h1>
+
+<table border="1">
+  <tr>
+    <th>Fecha</th>
+    <th>Cliente</th>
+    <th>Métrica</th>
+    <th>Valor</th>
+  </tr>
+  {% for row in datos_dashboard %}
+  <tr>
+    <td>{{ row.fecha }}</td>
+    <td>{{ row.cliente }}</td>
+    <td>{{ row.metrica }}</td>
+    <td>{{ row.valor }}</td>
+  </tr>
+  {% endfor %}
+</table>
