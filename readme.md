@@ -73,7 +73,7 @@ Propondría una alternativa viable que cumpla el objetivo del negocio sin compro
 
 La idea es guiar al cliente desde la necesidad hacia una solución correcta, no solo rechazar el requerimiento.
 
-1. ¿Qué harías si debes trabajar con una tecnología que no dominas y el proyecto ya inició?
+2. ¿Qué harías si debes trabajar con una tecnología que no dominas y el proyecto ya inició?
 
 Identificaría las partes críticas del proyecto y aprendería lo necesario apoyándome en la documentación oficial.
 De ser posible, solicitaría apoyo puntual para avanzar sin afectar los tiempos del proyecto.
