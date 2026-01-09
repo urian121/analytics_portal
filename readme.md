@@ -46,7 +46,7 @@ No se utiliza base de datos ni persistencia, cumpliendo con el alcance solicitad
 ### Consumo de datos en Django
 
 La lógica de acceso a datos se separó en un módulo de servicios encargado de la conexión y ejecución de queries en BigQuery.
-Las vistas consumen estos servicios y envían los datos ya procesados al template, manteniendo el frontend desacoplado de la fuente de datos.
+Las vistas consumen estos servicios y envían los datos ya procesados al template, lo que permite que el frontend se enfoque únicamente en la presentación sin depender de la lógica de acceso a datos.
 
 ### Queries SQL
 
